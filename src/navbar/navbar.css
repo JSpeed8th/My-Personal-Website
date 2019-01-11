@@ -1,0 +1,29 @@
+nav {
+  background-color: rgba(0, 0, 0, 0.1);
+  /* padding: 30px 10px; */
+  position: relative;
+  width: 100vw;
+  position: fixed;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0px 1vw;
+  font-size: 19px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: left;
+  padding: 15px 10px;
+}
+
+nav ul li a {
+  color: #3c4f64;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+}
